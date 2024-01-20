@@ -10,7 +10,7 @@ public class ArrayPractice5 {
         int[] arr = {5, 3, 1, 4, 6, 1};
         int[] visited = new int[arr.length]; // 이미 출력한 값인지 확인하기 위함
         int visitCnt = 0;
-        int minVal = Integer.MAX_VALUE;
+        int minVal = Integer.MAX_VALUE; // 2147483647
         int minIdx = -1;
 
         while (visitCnt < arr.length) {
