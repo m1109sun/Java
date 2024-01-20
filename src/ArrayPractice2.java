@@ -8,7 +8,7 @@
 // 결과: 6
 
 public class ArrayPractice2 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] arr = {1, 1, 100, 1, 1, 1, 100};
         int target = 100;
         int idxMax = -1;
