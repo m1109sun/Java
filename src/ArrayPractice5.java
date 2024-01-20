@@ -20,11 +20,13 @@ public class ArrayPractice5 {
                     minIdx = i;
                 }
             }
+
             if (minIdx != -1) {
                 System.out.print(minVal + " ");
                 visited[minIdx] = 1;
                 visitCnt++;
             }
+
             minVal = Integer.MAX_VALUE;
             minIdx = -1;
         }
