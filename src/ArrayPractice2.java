@@ -6,6 +6,7 @@
 // 배열 arr: 1, 1, 100, 1, 1, 1, 100
 // target: 100
 // 결과: 6
+
 public class ArrayPractice2 {
     public static void main(String args[]) {
         int[] arr = {1, 1, 100, 1, 1, 1, 100};
