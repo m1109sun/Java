@@ -1,6 +1,7 @@
 // ArrayList를 이용한 스택 구현
 
 import java.util.ArrayList;
+
 class MyStack {
     ArrayList list;
 
