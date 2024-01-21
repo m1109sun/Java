@@ -1,5 +1,4 @@
 // 기본 배열 자료형을 이용한 배열의 생성, 삽입, 삭제 기능 구현
-
 import java.util.Arrays;
 class MyArray {
     int[] arr;
