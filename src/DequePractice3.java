@@ -72,10 +72,11 @@ class MyDeque3 {
     public Integer removeFirst() {
         if (this.isEmpty()) {
             System.out.println("Deque is empty!");
-            return;
+            return null;
         }
 
         this.front = (this.front + 1) % this.arr.length;
+        return this.arr[this.front];
     }
 
     public Integer removeLast() {
