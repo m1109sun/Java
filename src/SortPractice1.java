@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 public class SortPractice1 {
     public static void solution(int[] arr) {
-        // 카운팅 할 계수가 3개밖에 되지 않기 때문에 계수정렬로 하는게 빠를 거 같음
+        // 카운팅 할 계수가 3개밖에 되지 않기 때문에 계수 정렬로 하는게 빠를 거 같음
         if (arr == null || arr.length == 0) {
             return;
         }
