@@ -23,6 +23,8 @@ public class BinarySearchPractice1 {
 
         while (left <= right) {
             int mid = (left + right) / 2;
+            // overflow를 방지하고 싶으면(left, right 값이 넘 클 때)
+            // int mid = left + (right - left) / 2;
 
             if (target == arr[mid]) {
                 return mid;
